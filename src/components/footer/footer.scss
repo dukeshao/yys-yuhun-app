@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    > ul {
+        width: 100%;
+        display: flex;
+        > li {
+            flex: 1;
+            &:active {
+                transform: translateY(2px);
+            }
+            &:nth-child(1) {
+                background: url("../../assets/img/footer/icon_xiaolu.png") no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(2) {
+                background: url("../../assets/img/footer/icon_shantu.png") no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(3) {
+                background: url("../../assets/img/footer/icon_xuenv.png") no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(4) {
+                background: url("../../assets/img/footer/icon_datiangou.png") no-repeat center center;
+                background-size: contain;
+            }
+        }
+    }
+}

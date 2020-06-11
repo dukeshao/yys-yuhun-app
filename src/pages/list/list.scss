@@ -1,0 +1,35 @@
+.list_page {
+    width: 100%;
+    position: relative;
+    background: #6b564f;
+
+    // .list_header {
+    //     height: 40px;
+    //     background: #eee;
+    //     text-align: center;
+    //     line-height: 40px;
+    //     font-size: 16px;
+    //     font-weight: bold;
+    // }
+    .list_body {
+        height: calc(100% - 40px);
+        overflow-x: hidden;
+        > ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        padding-bottom: 40px;
+    }
+    // .list_footer {
+    //     display: flex;
+    //     height: 40px;
+    //     margin-top: 2px;
+    //     > li {
+    //         flex: 1;
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;
+    //         border: 1px solid #4d2e1a;
+    //     }
+    // }
+}

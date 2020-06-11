@@ -1,0 +1,35 @@
+.filter_header {
+    height: 40px;
+    margin-bottom: 2px;
+    background: url("../../assets/img/filter_header/filter_header_bg.png") repeat-x;
+    background-size: contain;
+    > ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: url("../../assets/img/filter_header/filter_header_border_left.png") no-repeat left top,
+            url("../../assets/img/filter_header/filter_header_border_right.png") no-repeat right top;
+        background-size: contain;
+        > li {
+            display: flex;
+            width: 25%;
+            height: 80%;
+
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+            background: url("../../assets/img/filter_header/filter_item_bg.png") repeat-x;
+            background-size: contain;
+            > div {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: url("../../assets/img/filter_header/filter_item_border_left.png") no-repeat left top,
+                    url("../../assets/img/filter_header/filter_item_border_right.png") no-repeat right top;
+                background-size: contain;
+            }
+        }
+    }
+}

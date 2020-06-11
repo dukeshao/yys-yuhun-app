@@ -1,0 +1,13 @@
+.menu {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    transition: left 0.5s ease;
+    &.show {
+        left: 0;
+    }
+}
